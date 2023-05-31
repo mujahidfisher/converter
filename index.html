@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            Temperature Converter
+        </h1>
+    </div>
+
+    <div class="main">
+
+        <h3>Choose your temperature unit:</h3>
+        <h5 class="units">Celsius °C</h5>
+        <input type="checkbox" name="unit1" class="celcies" id="temp1">
+        <h5 class="units">Fahrenheit °F</h5>
+        <input type="checkbox" name="unit3" class="ferin" id="temp2">
+        <h5 class="units">Kelvin °K</h5>
+        <input type="checkbox" name="unit6" class="kelvin" id="temp3">
+-------------------------------------------------------------------------------------------------------
+        <h3>Choose what you want to covert too:</h3>
+        <h5 class="units">Celsius °C</h5>
+        <input type="checkbox" class="celcies" name="unit4" id="temp1">
+        <h5 class="units">Fahrenheit °F</h5>
+        <input type="checkbox" class="ferin" name="unit2" id="temp2">
+        <h5 class="units">Kelvin °K</h5>
+        <input type="checkbox" class="kelvin" name="unit5" id="temp3">
+
+        <input type="number" id="number">
+        
+
+        <button id="converter" class="check">Convert</button>
+        <br>
+        <a href="./index.html"><button class="check">Clear</button></a> 
+
+        <p id="output"></p>
+    </div>
+
+    <div class="footer">
+        <p>
+            Mujahid Fisher &copy copyright
+        </p>
+    </div>
+    <script src="./script/code.js"></script>
+</body>
+</html>
